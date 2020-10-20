@@ -85,7 +85,7 @@ findButton.pack(side = LEFT)
 
 findEntry = Entry(frameButtons)
 findEntry.pack(side = LEFT)
-#Проверяем как работает таблица
+
 title = ['НР', 'Магазин', 'Город', 'Дата заказа', 'Отдел' ,'Бюджет' ,'Номер заказа', 'Дата выполнения', 'Работы', 'Статус', 'Примечания']
 table = Table(frameTable, 20, title)
 table.pack()
